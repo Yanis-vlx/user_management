@@ -1,0 +1,20 @@
+{
+  "name": "user_management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp",
+    "build:css": "tailwindcss build -i src/layout/input.css -o src/layout/output.css",
+    "watch:css": "tailwindcss build -i src/layout/input.css -o src/layout/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "gulp": "^5.0.0",
+    "gulp-connect-php": "^1.0.3",
+    "tailwindcss": "^3.4.4"
+  }
+}
